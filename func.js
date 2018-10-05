@@ -17,7 +17,7 @@ function decre() //function to be called on click of the decrement button
     document.getElementById("span").innerHTML=counterReducer(actionType,counter)+" decrementing the number"; //calling the counterReducer function 
                                                                                   //with value of actiontype and global variable counter                          
 }
-function counterReducer(actionType,count) //function counteReducer with parameters actiontype and count.Here the count is local variable to counterReducer function
+function counterReducer(actionType,count) //function counteReducer with parameters actiontype and count.Here the count and actiontype are local variable to counterReducer function
 {
     if (actionType=='INC')
    return counter=count+1;
